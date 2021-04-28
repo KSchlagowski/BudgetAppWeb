@@ -14,4 +14,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetAppWeb.Application\BudgetAppWeb.Application.csproj" />
+    <ProjectReference Include="..\BudgetAppWeb.Infrastructure\BudgetAppWeb.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
