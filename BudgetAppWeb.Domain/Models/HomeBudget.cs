@@ -10,5 +10,7 @@ namespace BudgetAppWeb.Domain.Models
         public decimal IrregularExpenses { get; set; }
         public decimal Balance { get; set; }
         public decimal FinalBalance { get; set; }
+
+
     }
 }
