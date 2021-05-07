@@ -11,6 +11,7 @@ namespace BudgetAppWeb.Domain.Models
         public decimal Balance { get; set; }
         public decimal FinalBalance { get; set; }
 
-
+        public int HomeBudgetForeignKey { get; set; }
+        public Client Client { get; set; }
     }
 }

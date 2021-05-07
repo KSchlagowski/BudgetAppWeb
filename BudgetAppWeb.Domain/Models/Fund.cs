@@ -8,6 +8,7 @@ namespace BudgetAppWeb.Domain.Models
         public decimal SecurityFundBalance { get; set; } = 0;
         public decimal SpecialPurposeFundBalance { get; set; } = 0;
 
-        public virtual User User { get; set; }
+        public int FundForeignKey { get; set; }
+        public virtual Client Client { get; set; }
     }
 }
